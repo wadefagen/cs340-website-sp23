@@ -1,0 +1,13 @@
+<div class="staff-grid">
+    {% for person in site.data.staff %}
+    {% if person[1]['role'] == include.role or include.role == "all" %}
+    <div class="card">
+        <img class="card-img-top" src="{{ site.baseurl }}/static/staff-photos/{{ person[0] }}.jpg" onerror="this.src='{{ site.baseurl }}/static/staff-photos/blank_profile.png';" alt="">
+        <div class="card-body">
+            <h6>{{ person[1]['name'] }}</h6>
+            <a href="mailto:{{ person[1]['netid'] }}@illinois.edu">{{ person[1]['netid'] }}</a>
+        </div>
+    </div>
+    {% endif %}
+    {% endfor %}
+</div>

@@ -1,0 +1,130 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: "CS 340: Introduction to Computer Systems (Spring 2023)"
+email:
+description: >- # this means to ignore newlines until "baseurl:"
+  Course homepage for the Spring 2023 semester of CS 340: Introduction to Computer Systems; University of Illinois at Urbana-Champaign (UIUC)
+baseurl: "/cs340/sp2023" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Build settings
+# This custom processor allows us to better support Bootstrap, namely by
+# adding the ".table" class to generated tables. Note that we can't run this
+# site on GitHub Pages since they run Jekyll in "safe" mode, where plugins
+# are disabled.
+markdown: CustomMarkdown
+kramdown:
+  syntax_highlighter: rouge
+#theme: minima
+#plugins:
+#  - jekyll-feed
+relative_permalinks: false
+
+# !! Do not use --incremental or `incremental: true`, it breaks this site. :( !!
+# incremental: false
+
+profile: true
+
+exclude: [.idea/, .sass-cache/]
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "resources"
+    values:
+      layout: "content"
+  -
+    scope:
+      path: ""
+      type: "mp"
+    values:
+      layout: "mp"
+  -
+    scope:
+      path: ""
+      type: "labs"
+    values:
+      layout: "lab"
+  -
+    scope:
+      path: ""
+      type: "ec"
+    values:
+      layout: "ec"
+  -
+    scope:
+      path: ""
+      type: "notes"
+    values:
+      layout: "content"
+  -
+    scope:
+      path: ""
+      type: "lecture"
+    values:
+      layout: "content"
+  -
+    scope:
+      path: ""
+      type: "prelecture"
+    values:
+      layout: "prelecture"
+
+collections:
+  homeworks:
+    output: true
+    permalink: /:collection/:name/
+  resources:
+    output: true
+    permalink: /:collection/:name/
+  mp:
+    output: true
+    layout: mp
+    #permalink: /:collection/:name/
+  notes:
+    output: true    
+  news:
+    output: true
+    permalink: /:collection/:name/
+  lecture:
+    output: true
+    permalink: /lecture/:name/
+  project:
+    output: true
+    permalink: /project/:name/
+  prelecture:
+    output: true
+    permalink: /prelecture/:name/
+
+collections_dir: collections
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/

@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+<div class="card box-shadow p-2">
+  <div class="card-body">
+    <h3 class="card-title">Homework {{ page.number }}: {{ page.title }}</h3>
+    <div><b>Due Date</b>: Completed and graded in PL before {{ page.due | date: '%B %e, %Y at %l:%M%P' }}<br></div>
+  </div>
+</div>
+
+<hr>
+
+<div class="card box-shadow p-2">
+  <div class="card-body reduce-h-tags">
+    {{content}}
+  </div>
+</div>

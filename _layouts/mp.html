@@ -1,0 +1,31 @@
+---
+layout: default
+---
+
+<div class="card box-shadow p-2">
+  <div class="card-body">
+    <h3 class="card-title">
+      {% if page.number %} MP {{ page.number }}: {% endif %}
+      {{ page.title }}
+    </h3>
+    <div><b>Due Date</b>: Completed, turned in via git, and GitHub Action completed before {{ page.due | date: '%B %e, %Y at %l:%M%P' }}<br></div>
+    {% if page.ec %}
+      <div><b>Extra Credit</b>: This page describes <b style="background-color: lightyellow;">extra credit</b> to earn up to <b>{{ page.points }}</b>.</div>
+    {% else %}
+      <div><b>Points</b>: MP {{ page.number }} is worth {{ page.points }} points</div>
+    {% endif %}
+    {% if page.jklmnop %}
+      <div><b>JKLMNOP</b>: <a href="{{page.jklmnop}}">There's an extra credit JKLMNOP for MP {{page.number}} here!</a></div>
+    {% endif %}
+
+    <div><b>Semester-Long Details</b>: <a href="https://systems-encyclopedia.cs.illinois.edu/articles/illinois/system/">Programming Environment</a> and <a href="{{ '/pages/mp-policy.html' | absolute_url }}">MP Policy</a></div>
+  </div>
+</div>
+
+<hr>
+
+<div class="card box-shadow p-2">
+  <div class="card-body reduce-h-tags">
+    {{content}}
+  </div>
+</div>

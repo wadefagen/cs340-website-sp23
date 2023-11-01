@@ -1,0 +1,347 @@
+lectures:
+# Week 1
+- date: 2022-01-18
+  title: Course Introduction and Binary Representation
+  visible: true
+  number: 1  
+  links:
+  - Lecture Handout: /static/lectures/cs240sp22 - 01 - Course Introduction, Binary, and Hex (Handout).pdf
+  - Lecture Slides: /static/lectures/cs240sp22 - 01 - Course Introduction, Binary, and Hex (Slides).pdf
+  - Lecture Code: https://github.com/cs240-illinois/sp22_cs240_.lecture/tree/main/01
+  - Lecture Zoom Recording: https://mediaspace.illinois.edu/media/1_j2t0jfm0
+  assignments:
+  - Homework 1 (Due Monday, Jan. 24 by 11:59pm): "/homeworks/hw1/"
+
+- date: 2022-01-20
+  title: Character Encodings (ASCII, UTF-8) and C Programming
+  number: 2
+  visible: true
+  links:
+  - Lecture Handout: /static/lectures/cs240sp22 - 02 - Character Encodings and C Programming (Handout).pdf
+  - Lecture Slides: /static/lectures/cs240sp22 - 02 - Character Encodings and C Programming (Slides).pdf
+  - Lecture Code: https://github.com/cs240-illinois/sp22_cs240_.lecture/tree/main/02
+  - Lecture Zoom Recording: https://mediaspace.illinois.edu/media/t/1_8xv4dt0i
+  assignments:
+  - Homework 2 (Due Monday, Jan. 24 by 11:59pm): "/homeworks/hw2/"
+  - "MP1: Emoji (Due Monday, Jan. 31 by 11:59pm)": "/mp/mp1.html"
+
+
+# Week 2
+- date: 2022-01-25
+  title: Binary Math, Two's Complement and Logic Gates
+  number: 3
+  visible: true
+  links:
+  - Lecture Handout: /static/lectures/cs240sp22 - 03 - Binary Math, Two's Complement and Logic Gates (Handout).pdf
+  - Lecture Slides: /static/lectures/cs240sp22 - 03 - Binary Math, Two's Complement and Logic Gates (Slides).pdf
+  assignments:
+  - Homework 3 (Due Monday, Jan. 31 by 11:59pm): "/homeworks/hw3/"
+
+
+- date: 2022-01-27
+  title: ISAs and Instruction Sets, File Types, & Memory
+  number: 4
+  visible: true
+  links:
+  - Lecture Handout: /static/lectures/cs240sp22 - 04 - ISAs and Instruction Sets, File Types, and Memory (Handout).pdf
+  - Lecture Slides: /static/lectures/cs240sp22 - 04 - ISAs and Instruction Sets, File Types, and Memory (Slides).pdf
+  - Lecture Code: https://github.com/cs240-illinois/sp22_cs240_.lecture/tree/main/04
+  assignments:
+  - Homework 4 (Due Monday, Jan. 31 by 11:59pm): "/homeworks/hw4/"
+  - "MP2: PNG (Due Monday, Feb. 7 by 11:59pm)": "/mp/mp2/"
+
+
+# Week 3
+- date: 2022-02-01
+  title: Locality of Reference and Virtual Memory
+  number: 5
+  visible: true
+  links:
+  - Lecture Handout: /static/lectures/cs240sp22 - 05 - Locality of Reference and Virtual Memory.pdf
+  - Lecture Code: https://github.com/cs240-illinois/sp22_cs240_.lecture/tree/main/05
+  assignments:
+  - Homework 5 (Due Monday, Feb. 7 by 11:59pm): "/homeworks/hw5/"
+
+- date: 2022-02-03
+  title: Heap Memory Allocation and malloc
+  number: 6
+  visible: true
+  links:
+  - Lecture Handout: /static/lectures/cs240sp22 - 06 - Heap Memory Allocation and malloc.pdf
+  - Lecture Code: https://github.com/cs240-illinois/sp22_cs240_.lecture/tree/main/06
+  - Lecture Video: https://mediaspace.illinois.edu/media/t/1_st35alni
+  assignments:
+  - Homework 6 (Due Monday, Feb. 7 by 11:59pm): "/homeworks/hw6/"
+  - "MP3: malloc (Week 1 due Monday, Feb. 14 by 11:59pm)": "/mp/mp3/"
+
+  
+
+
+# Week 4
+- date: 2022-02-08
+  title: Page Eviction, Threads, and pthreads
+  number: 7
+  visible: true
+  links:
+  - Lecture Handout: /static/lectures/cs240sp22 - 07 - Fragmentation, Threads, and pthreads.pdf
+  - Lecture Code: https://github.com/cs240-illinois/sp22_cs240_.lecture/tree/main/07
+  assignments:
+  - Homework 7 (Due Monday, Feb. 14 by 11:59pm): "/homeworks/hw7/"
+
+- date: 2022-02-10
+  title: Limited Direct Execution and Threads
+  number: 8
+  visible: true
+  links:
+  - Lecture Handout: /static/lectures/cs240sp22 - 08 - Limited Direct Execution and Threads.pdf
+  - Lecture Code: https://github.com/cs240-illinois/sp22_cs240_.lecture/tree/main/08
+  assignments:
+  - Homework 8 (Due Monday, Feb. 14 by 11:59pm): "/homeworks/hw8/"
+
+
+# Week 5
+- date: 2022-02-15
+  title: "Synchronization and Dining Philosophers"
+  number: 9
+  visible: true
+  links:
+  - Lecture Handout: /static/lectures/cs240sp22 - 09 - Synchronization and Dining Philosophers.pdf
+  - Lecture Code: https://github.com/cs240-illinois/sp22_cs240_.lecture/tree/main/09
+  assignments:
+  - Homework 9 (Due Monday, Feb. 21 by 11:59pm): "/homeworks/hw9/"
+
+- date: 2022-02-17
+  title: "Deadlock Solutions and Producer-Consumer"
+  number: 10
+  visible: true
+  links:
+  - Lecture Handout: /static/lectures/cs240sp22 - 10 - Deadlock Solutions and Producer-Consumer.pdf
+  - Lecture Code: https://github.com/cs240-illinois/sp22_cs240_.lecture/tree/main/10
+  assignments:
+  - "MP4: Resource Wallet (Due Monday, Feb. 28 by 11:59pm)": "/mp/mp4/"
+
+
+
+
+
+# Week 6
+- date: 2022-02-22
+  title: Inter-process Communications (IPC) and Networking
+  number: 11
+  visible: true
+  links:
+  - Lecture Handout: /static/lectures/cs240sp22 - 11 - IPC and Networking.pdf
+  - Lecture Code: https://github.com/cs240-illinois/sp22_cs240_.lecture/tree/main/11
+  - ▶️ Zoom Recording: https://mediaspace.illinois.edu/media/t/1_4y74bypx
+  assignments:
+  - Homework 10 - Practice Exam (Due Thursday, Mar. 3 by 11:59pm): "/homeworks/hw10/"
+
+- date: 2022-02-24
+  title: "Networking: OSI Model and HTTP"
+  number: 12
+  visible: true
+  links:
+  - Lecture Handout: /static/lectures/cs240sp22 - 12 - Networking_ OSI Model and HTTP.pdf
+  - ▶️ Zoom Recording: https://mediaspace.illinois.edu/media/t/1_ifq7lwth
+  assignments:
+  - "MP5: Static HTTP Web Server (Due Monday, Mar. 7 by 11:59pm)": "/mp/mp5/"
+
+
+
+# Week 7
+- date: 2022-03-01
+  note: "You will sign up to take your Midterm 1 exam in the CBTF anytime on Tuesday, March 1 - Thursday, March 3"
+  title: "Web Services, Python, and flask"
+  number: 13
+  visible: true
+  links:
+  - Lecture Handout: /static/lectures/cs240sp22 - 13 - Web Services, Python, and flask.pdf
+  - Lecture Code: https://github.com/cs240-illinois/sp22_cs240_.lecture/tree/main/13
+  - ▶️ Zoom Recording: https://mediaspace.illinois.edu/media/t/1_hyf5g85p
+
+
+- date: 2022-03-03
+  title: Midterm 1 Exam (No Lecture)
+  holiday: true
+  assignments:
+  - "MP6 (Due Monday, Mar. 21 by 11:59pm)": "/mp/mp6/"
+
+
+
+# Week 8
+- date: 2022-03-08
+  title: API Programming and Virtualizations
+  number: 14
+  visible: true
+  links:
+  - Lecture Handout: /static/lectures/cs240sp22 - 14 - API Programming and Virtualizations.pdf
+  - Lecture Code: https://github.com/cs240-illinois/sp22_cs240_.lecture/tree/main/14
+  - ▶️ Zoom Recording: https://mediaspace.illinois.edu/media/t/1_wc40vqpm
+
+- date: 2022-03-10
+  title: IaaS and Public/Private Clouds
+  number: 15
+  visible: true
+  links:
+  - Lecture Handout: /static/lectures/cs240sp22 - 15 - IaaS and Public_Private Clouds.pdf
+  - ▶️ Zoom Recording: https://mediaspace.illinois.edu/media/t/1_p5dnglpb
+  assignments:
+  - Homework 11 - HTTP and IaaS (Due Thursday, Mar. 21 by 11:59pm): "/homeworks/hw11/"
+  - "MP7 (Due Monday, Mar. 28 by 11:59pm)": "/mp/mp7/"
+
+
+# Week 9
+- date: 2022-03-14
+  note: "Have an amazing Spring Break!!"
+  title: Spring Break - No Lecture
+
+- date: 2022-03-16
+  title: Spring Break - No Lecture
+
+
+# Week 10
+- date: 2022-03-21
+  title: Containers, CaaS and Docker
+  number: 16
+  visible: true
+  links:
+  - Lecture Handout: /static/lectures/cs240sp22 - 16 - Containers, CaaS and Docker.pdf
+  - Lecture Code: https://github.com/cs240-illinois/sp22_cs240_.lecture/tree/main/16
+  - ▶️ Zoom Recording: https://mediaspace.illinois.edu/media/t/1_wngyu1r4
+
+  
+
+- date: 2022-03-23
+  title: Data Storage - File Systems to Cloud
+  number: 17
+  visible: true
+  links:
+  - Lecture Handout: /static/lectures/cs240sp22 - 17 - Data Storage - File Systems to Cloud.pdf
+  - ▶️ Zoom Recording: https://mediaspace.illinois.edu/media/t/1_bkgubwux
+  assignments:
+  - "MP8: Versioned State Server (Due April 4, 2022)": "/mp/mp8/"
+
+
+
+
+# Week 11
+- date: 2022-03-29
+  title: S3 APIs and MapReduce Overview
+  number: 18
+  visible: true
+  links:
+  - Lecture Handout: /static/lectures/cs240sp22 - 18 - S3 APIs and MapReduce Overview.pdf
+  - Lecture Code: https://github.com/cs240-illinois/sp22_cs240_.lecture/tree/main/18
+  - ▶️ Zoom Recording: https://mediaspace.illinois.edu/media/t/1_c0stuww3
+  assignments:
+  - "S3 Treasure Hunt (EC)": "https://campuswire.com/c/GD2962545/feed/577"
+
+
+- date: 2022-03-31
+  title: Cloud Architectures (Monolithic, Microservice, Serverless)
+  number: 19
+  visible: true
+  links:
+  - Lecture Handout: /static/lectures/cs240sp22 - 19 - Cloud Architectures.pdf
+  - ▶️ Zoom Recording: https://mediaspace.illinois.edu/media/t/1_zdkihklv
+  assignments:
+  - Homework 12 - Files and MapReduce (Due Monday, Apr. 4 by 11:59pm): "/homeworks/hw12/"
+  - "MP9": "/mp/mp9/"
+
+  
+
+
+# Week 12
+- date: 2022-04-05
+  title: SaaS and Software Architecture
+  number: 20
+  visible: true
+  links:
+  - Lecture Handout: /static/lectures/cs240sp22 - 20 - SaaS and Software Architecture.pdf
+  - Lecture Code: https://github.com/cs240-illinois/sp22_cs240_.lecture/tree/main/20
+  - ▶️ Zoom Recording: https://mediaspace.illinois.edu/media/t/1_fx3wiqjc
+
+
+- date: 2022-04-07
+  title: Caching in HTTP (Age and ETag)
+  number: 21
+  visible: true
+  links:
+  - Lecture Handout: /static/lectures/cs240sp22 - 21 - Caching in HTTP (Age and ETag).pdf
+  - Lecture Code: https://github.com/cs240-illinois/sp22_cs240_.lecture/tree/main/21
+  - ▶️ Zoom Recording: https://mediaspace.illinois.edu/media/t/1_dj6fug8e
+  assignments:
+  - Homework 13: "/homeworks/hw13/"
+  - "Final Project - Week #1": "/project/part1/"
+
+
+# Week 13
+- date: 2022-04-12
+  title: Domain Name System (DNS)
+  number: 22
+  visible: true
+  links:
+  - Lecture Handout: /static/lectures/cs240sp22 - 22 - Domain Name System (DNS).pdf
+  - ▶️ Zoom Recording: https://mediaspace.illinois.edu/media/t/1_64sr81p3
+
+
+  
+
+- date: 2022-04-14
+  title: Content Delivery Networks (CDNs)
+  number: 23
+  visible: true
+  links:
+  - Lecture Handout: /static/lectures/cs240sp22 - 23 - Content Delivery Networks.pdf
+  - ▶️ Zoom Recording: https://mediaspace.illinois.edu/media/t/1_adtq6hnj
+  assignments:
+  - Homework 14: "/homeworks/hw14/"
+  - "Final Project - Week #2": "/project/part2/"
+
+
+
+# Week 14
+- date: 2022-04-19
+  title: Tokens and SAML2 Authentication (SSO Login)
+  number: 24
+  visible: true
+  links:
+  - Lecture Handout: /static/lectures/cs240sp22 - 24 - Tokens and SAML2 Authentication.pdf
+  - ▶️ Zoom Recording: https://mediaspace.illinois.edu/media/t/1_w50q0iv5
+
+- date: 2022-04-21
+  title: Course-Wide Project Middleware
+  number: 25
+  visible: true
+  links:
+  - Lecture Handout (continue from 24): /static/lectures/cs240sp22 - 24 - Tokens and SAML2 Authentication.pdf
+  - ▶️ Zoom Recording: https://mediaspace.illinois.edu/media/t/1_ocu1f7s8
+  assignments:
+  - Homework 15: "/homeworks/hw15/"
+  - "Final Project - Week #3": "/project/part3/"
+
+
+# Week 15
+- date: 2022-04-26
+  note: "You will sign up to take your Midterm 2 exam in the CBTF anytime on Tuesday, Apr. 26 - Thursday, Apr. 28"
+  title: "Threading in Python (async/await)"
+  number: 26
+  visible: true
+  links:
+  - Lecture Handout: /static/lectures/cs240sp22 - 25 - Threading in Python.pdf
+  - Lecture Code: https://github.com/cs240-illinois/sp22_cs240_.lecture/tree/main/25
+  - ▶️ Zoom Recording: https://mediaspace.illinois.edu/media/t/1_baqka8qe
+
+
+- date: 2022-04-28
+  title: "Midterm Exam #2"
+  holiday: true
+
+
+# Week 16
+- date: 2022-05-02
+  title: "Finale and Final Project Test Run"
+  number: 27
+  visible: true
+  links:
+  - Lecture Handout: /static/lectures/cs240sp22 - 27 - Finale.pdf

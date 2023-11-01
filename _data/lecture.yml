@@ -1,0 +1,344 @@
+lectures:
+
+# Week 1
+- date: 2023-01-17
+  title: "Course Introduction and Binary Representation"
+  number: 1
+  visible: true
+  links:
+  - Lecture Handout: /static/lectures/cs340sp23-01 - Course Introduction, Binary, and Hex.pdf
+  - Lecture Code: https://github.com/cs340-illinois/lecture/tree/main/01
+  - ▶️ Lecture Recording: https://mediaspace.illinois.edu/media/t/1_4do0utqs
+  assignments:
+  - Homework 1 (Due Monday, Jan. 23 by 11:59pm): "/homeworks/hw1/"
+  - Pre-MP (Due Tuesday, Jan. 24 by 11:59pm): "/mp/mp0/"
+
+
+- date: 2023-01-19
+  title: "Character Encodings (ASCII, UTF-8), Binary Math, and Two's Complement"
+  number: 2
+  visible: true
+  links:
+  - Lecture Handout: /static/lectures/cs340sp23-02 - Character Encodings and Binary Math.pdf
+  - Lecture Code: https://github.com/cs340-illinois/lecture/tree/main/02
+  - ▶️ Lecture Recording: https://mediaspace.illinois.edu/media/t/1_7d5743vr
+  assignments:
+  - Homework 2 (Due Monday, Jan. 23 by 11:59pm): "/homeworks/hw2/"
+
+# Week 2
+- date: 2023-01-24
+  title: "C Programming and Logic Gates"
+  number: 3
+  visible: true
+  links:
+  - Lecture Handout: /static/lectures/cs340sp23-03 - C Programming and Logic Gates.pdf
+  - Lecture Code: https://github.com/cs340-illinois/lecture/tree/main/03
+  - ▶️ Lecture Recording: https://mediaspace.illinois.edu/media/t/1_289t3bi6
+  readings:
+  - The C Programming Language - An Introduction: https://systems-encyclopedia.cs.illinois.edu/articles/intro-c/
+  - Strings in C: https://systems-encyclopedia.cs.illinois.edu/articles/c-strings/
+  - Basic Memory Management in C: https://systems-encyclopedia.cs.illinois.edu/articles/c-memory-management/
+  - Bitwise Operations: https://systems-encyclopedia.cs.illinois.edu/articles/bitwise-operations/
+  assignments:
+  - Homework 3 (Due Monday, Jan. 30 by 11:59pm):  "/homeworks/hw3/"
+  - MP1 (Due Tuesday, Jan. 31 by 11:59pm): "/mp/mp1"
+
+
+- date: 2023-01-26
+  title: "Instruction Set Architectures (ISAs)"
+  number: 4
+  visible: true
+  links:
+  - Lecture Handout: /static/lectures/cs340sp23-04 - Instruction Set Architectures (ISAs).pdf
+  - Lecture Code: https://github.com/cs340-illinois/lecture/tree/main/04
+  - ▶️ Lecture Recording: https://mediaspace.illinois.edu/media/t/1_kysj1jfn
+  assignments:
+  - Homework 4 (Due Monday, Jan. 30 by 11:59pm): "/homeworks/hw4/"
+
+# Week 3
+- date: 2023-01-31
+  title: "Endianness, Memory Hierarchy, and Virtual Memory"
+  number: 5
+  visible: true
+  links:
+  - Lecture Handout: /static/lectures/cs340sp23-05 - Endianness, Memory Hierarchy, and Virtual Memory.pdf
+  - Lecture Code: https://github.com/cs340-illinois/lecture/tree/main/05
+  - ▶️ Lecture Recording: https://mediaspace.illinois.edu/media/t/1_8i9cor4x
+  assignments:
+  - MP2 (Due Tuesday, Feb. 7 by 11:59pm): "/mp/mp2/"
+
+- date: 2023-02-02
+  title: "Memory Allocation and malloc"
+  number: 6
+  visible: true
+  links:
+  - Lecture Handout: /static/lectures/cs340sp23-06 - Memory Allocation and malloc.pdf
+  - Lecture Code: https://github.com/cs340-illinois/lecture/tree/main/06
+  - ▶️ Lecture Recording: https://mediaspace.illinois.edu/media/t/1_nyvi0p7h
+  assignments:
+  - Homework 5 (Due Monday, Feb. 6 by 11:59pm): "/homeworks/hw5/"
+
+# Week 4
+- date: 2023-02-07
+  title: "Page Eviction, Threads, and pthreads"
+  number: 7
+  visible: true
+  links:
+  - Lecture Handout: /static/lectures/cs340sp23-07 - malloc, Page Eviction, and Threads.pdf
+  - Lecture Code: https://github.com/cs340-illinois/lecture/tree/main/07
+  - ▶️ Lecture Recording: https://mediaspace.illinois.edu/media/t/1_fdbpkdln
+  assignments:
+  - Homework 6 (Due Monday, Feb. 13 by 11:59pm): "/homeworks/hw6/"
+  - MP3 (Week 1 due on Tuesday, Feb. 14 by 11:59pm): "/mp/mp3/"
+  - MP3 (Week 2 due on Tuesday, Feb. 21 by 11:59pm): "/mp/mp3/"
+
+
+- date: 2023-02-09
+  title: Thread Creation, Join, and the Five State Model
+  number: 8
+  visible: true
+  links:
+  - Lecture Handout: /static/lectures/cs340sp23-08 - Thread Creation, Join, and the Five State Model.pdf
+  - Lecture Code: https://github.com/cs340-illinois/lecture/tree/main/08
+  - ▶️ Lecture Recording: https://mediaspace.illinois.edu/media/t/1_mkd9v4gi
+  assignments:
+  - Homework 7 (Due Monday, Feb. 13 by 11:59pm): /homeworks/hw7/
+
+
+# Week 5
+- date: 2023-02-14
+  title: "Synchronization and Dining Philosophers"
+  number: 9
+  visible: true
+  links:
+  - Lecture Handout: /static/lectures/cs340sp23-09 - Synchronization and Dining Philosophers.pdf
+  - Lecture Code: https://github.com/cs340-illinois/lecture/tree/main/09
+  - ▶️ Lecture Recording: https://mediaspace.illinois.edu/media/t/1_wwqu9x8a
+
+
+- date: 2023-02-16
+  title: "Deadlock and The Sleeping Barber"
+  number: 10
+  visible: true
+  links:
+  - Lecture Handout: /static/lectures/cs340sp23-10 - Deadlocks and The Sleeping Barber.pdf
+  - Lecture Code: https://github.com/cs340-illinois/lecture/tree/main/10
+  - ▶️ Lecture Recording: https://mediaspace.illinois.edu/media/t/1_yy18uced
+  assignments:
+  - Homework 8 (Due Monday, Feb. 20 by 11:59pm): "/homeworks/hw8/"
+
+# Week 6
+- date: 2023-02-21
+  title: "IPC and Networking"
+  number: 11
+  visible: true
+  links:
+  - Lecture Handout: /static/lectures/cs340sp23-11 - IPC and Networking.pdf
+  - Lecture Code: https://github.com/cs340-illinois/lecture/tree/main/11
+  - ▶️ Lecture Recording: https://mediaspace.illinois.edu/media/t/1_s9f35fb6
+  assignments:
+  - MP4 (Due Tuesday, Feb. 28 by 11:59pm): "/mp/mp4/"
+
+
+- date: 2023-02-23
+  title: "Networking: OSI Model and HTTP"
+  number: 12
+  visible: true
+  links:
+  - Lecture Handout: /static/lectures/cs340sp23-12 - Networking_ OSI Model and HTTP.pdf
+  - ▶️ Lecture Recording: https://mediaspace.illinois.edu/media/t/1_vctx1s52
+  assignments:
+  - Homework 9 - Midterm Review (Due before Midterm Exam): "/homeworks/hw9/"
+
+
+# Week 7
+- date: 2023-02-28
+  note: "You will sign up to take your Midterm 1 exam in the CBTF this week."
+  title: "Web Services"
+  number: 13
+  visible: true
+  links:
+  - Lecture Handout: /static/lectures/cs340sp23-13 - Web Services, Python, and flask.pdf
+  - Lecture Code: https://github.com/cs340-illinois/lecture/tree/main/13
+  - ▶️ Lecture Recording: https://mediaspace.illinois.edu/media/t/1_e9k4gfpd
+  assignments:
+  - MP5 (Due Tuesday, March 7 by 11:59pm): "/mp/mp5/"
+
+- date: 2023-03-02
+  title: "Mideterm Exam I"
+  holiday: true
+
+# Week 8
+- date: 2023-03-07
+  title: "API Programming with Flask"
+  number: 14
+  visible: true
+  links:
+  - Lecture Handout: /static/lectures/cs340sp23-14 - API Programming with Flask.pdf
+  - Lecture Code: https://github.com/cs340-illinois/lecture/tree/main/14
+  - ▶️ Lecture Recording: https://mediaspace.illinois.edu/media/t/1_1uov5tgp
+  assignments:
+  - MP6 (Due Tuesday, March 21 by 11:59pm): "/mp/mp6/"
+
+- date: 2023-03-09
+  title: "IaaS and Public/Private Clouds"
+  number: 15
+  visible: true
+  links:
+  - Lecture Handout: /static/lectures/cs340sp23-15 - IaaS and Public_Private Clouds.pdf
+  #- Lecture Code: https://github.com/cs340-illinois/lecture/tree/main/15
+  - ▶️ Lecture Recording: https://mediaspace.illinois.edu/media/t/1_gqm7t252
+  assignments:
+  - Homework 10 - HTTP and XaaS (Due Tuesday, March 21 by 11:59pm): "/homeworks/hw10/"
+
+  # - Homework 10: "#"
+
+# (Spring Break)
+- date: 2023-03-14
+  title: "Spring Break"
+  holiday: true
+
+- date: 2023-03-16
+  title: "Spring Break"
+  holiday: true
+
+# Week 9
+- date: 2023-03-21
+  title: "Containers, CaaS and Docker"
+  number: 16
+  visible: true
+  links:
+  - Lecture Handout: /static/lectures/cs340sp23-16 - Containers, CaaS and Docker.pdf
+  - Lecture Code: https://github.com/cs340-illinois/lecture/tree/main/16
+  - ▶️ Lecture Recording: https://mediaspace.illinois.edu/media/t/1_3jy3u4iv
+  assignments:
+  - MP7 (Due Tuesday, March 28 by 11:59pm): /mp/mp7/
+
+- date: 2023-03-23
+  title: "Data Storage and Caching / Local File Storage"
+  number: 17
+  links:
+  - Lecture Handout: /static/lectures/cs340sp23-17 - Data Storage and Caching _ Local File Storage.pdf
+  - ▶️ Lecture Recording: https://mediaspace.illinois.edu/media/t/1_13qqcqxr
+  visible: true
+  # links:
+  # - Lecture Handout: /static/lectures/cs340fa22 - 17_ Containers, CaaS and Docker.pdf
+  # - Lecture Code: https://github.com/cs340-illinois/lecture/tree/main/17
+  # - ▶️ Lecture Recording: https://mediaspace.illinois.edu/media/t/1_qg55n1ie
+
+# Week 10
+- date: 2023-03-28
+  title: "Final Project Discussion + Cloud Object Storage (AWS S3, etc)"
+  number: 18
+  visible: true
+  links:
+  - Lecture Handout: /static/lectures/cs340sp23-18 - Cloud Object Storage (AWS S3, etc).pdf
+  - Lecture Code: https://github.com/cs340-illinois/lecture/tree/main/18
+  - ▶️ Lecture Recording: https://mediaspace.illinois.edu/media/t/1_zhdj6nur
+  assignments:
+  - MP8 (Due Tuesday, Apr. 4 by 11:59pm): /mp/mp8/
+  - Homework 11 (Due Monday, Apr. 3 by 11:59pm): "/homeworks/hw11/"
+
+- date: 2023-03-30
+  title: "Data Stores and Cloud Architectures"
+  number: 19
+  visible: true
+  links:
+  - Lecture Handout: /static/lectures/cs340sp23-19 - Data Stores and Cloud Architectures.pdf
+  - Lecture Code: https://github.com/cs340-illinois/lecture/tree/main/19
+  - ▶️ Lecture Recording: https://mediaspace.illinois.edu/media/t/1_bdoncmgt
+
+
+# Week 11
+- date: 2023-04-04
+  title: "Caching in HTTP (Age and ETag)"
+  number: 20
+  visible: true
+  links:
+  - Lecture Handout: /static/lectures/cs340sp23-20 - Caching in HTTP (Age and ETag).pdf
+  - Lecture Code: https://github.com/cs340-illinois/lecture/tree/main/20
+  - ▶️ Lecture Recording: https://mediaspace.illinois.edu/media/t/1_dkutfftn
+  assignments:
+  - MP9 (Due Tuesday, Apr. 11 by 11:59pm): /mp/mp9/
+
+- date: 2023-04-06
+  title: "Domain Name System (DNS)"
+  number: 21
+  visible: true
+  links:
+  - Lecture Handout: /static/lectures/cs340sp23-21 - Domain Name System (DNS).pdf
+  - ▶️ Lecture Recording: https://mediaspace.illinois.edu/media/t/1_a6kxcb9x
+  assignments:
+  - Homework 12 (Due Monday, April. 10 by 11:59pm): "/homeworks/hw12/"
+
+
+
+
+# Week 12
+- date: 2023-04-11
+  title: "Tokens and SAML2 Authentication (SSO Login)"
+  number: 22
+  visible: true
+  links:
+  - Lecture Handout: /static/lectures/cs340sp23-22 - Tokens and SAML2 Authentication.pdf
+  - ▶️ Lecture Recording: https://mediaspace.illinois.edu/media/t/1_7cd93bsy
+  #assignments:
+  #- Homework 13 (Due Monday, April. 10 by 11:59pm): "/homeworks/hw12/"
+
+
+- date: 2023-04-13
+  title: "MP9 Course-Wide Maze and Final Project Overview"
+  number: 23
+  visible: true
+  assignments:
+  - Project 1989 - Week 1 (Due Tuesday, Apr. 18 by 11:59pm): "/project/week1/" #
+  - ▶️ Lecture Recording: https://mediaspace.illinois.edu/media/t/1_b9q3dz1f
+
+  #title: "Domain Name System (DNS) and Content Delivery Networks (CDNs)"
+
+# Week 13
+- date: 2023-04-18
+  title: "Finishing Tokens and SAML2 Authentication (SSO Login)"
+  number: 23
+  visible: true
+  links:
+  - Lecture Handout: /static/lectures/cs340sp23-22 - Tokens and SAML2 Authentication.pdf
+  # links:
+  # - Lecture Handout: /static/lectures/cs340fa22 - 23_ Tokens and SAML2 Authentication.pdf
+
+- date: 2023-04-20
+  title: "MapReduce and SaaS Overview"
+  number: 24
+  visible: true
+  links:
+  - Lecture Handout: /static/lectures/cs340sp23-24 - SaaS and Software Architecture.pdf
+
+
+# Week 14
+- date: 2023-04-25
+  note: "You will sign up to take your Midterm 2 exam in the CBTF this week."
+  title: "Threading in Python (async/await)"
+  number: 25
+  visible: true
+  links:
+  - "Lecture Handout": /static/lectures/cs340sp23-25 - Threading in Python.pdf
+
+- date: 2023-04-27
+  title: "Midterm Exam II"
+  holiday: true
+
+
+# Week 15
+- date: 2023-05-02
+  title: "Finish Up Threading + 1989 Updates"
+  number: 26
+  visible: true
+  links:
+  - "Lecture Handout (Finish Up #25)": /static/lectures/cs340sp23-25 - Threading in Python.pdf
+
+
+# Week 16
+- date: 2023-05-08
+  note: "The finale of the final project will take place during the final exam period for CS 340, which is 1:30pm-4:30pm on Monday, May 8"
+  title: "Final Project Presentations (1:30pm)"
+  number: 30

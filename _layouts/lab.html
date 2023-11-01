@@ -1,0 +1,64 @@
+---
+layout: default
+---
+
+<div class="card box-shadow p-2">
+  <div class="card-body">
+    <h3 class="card-title">{{ page.title }}</h3>
+    <p>
+      <i>{{ page.description }}</i>
+    </p>
+    <div><b>Source Branch</b>: <code>{{ page.repo }}</code><br></div>
+    <div><b>Due Date</b>: Committed and pushed to git <b>before</b> {{ page.due | date: '%B %e, %Y at %l:%M%P' }} for <b>105% credit</b></div>
+    <div><b>Regrade Date for COVID-19 assignments</b>: Committed and pushed to git <b>before</b> May 6 at 11:59pm for <b>100% credit</b></div>
+  </div>
+</div>
+
+<hr>
+
+<div class="card box-shadow p-2">
+  <div class="card-body reduce-h-tags">
+    {{content}}
+  </div>
+</div>
+
+<hr>
+
+<div class="card box-shadow p-2">
+  <div class="card-body">
+    <h3 class="card-title">Submitting Your Work</h3>
+
+    <p>
+      When you have completed working, you should always submit your work (<i>even if you're not quite finished</i>).
+      We will always grade the <b>latest push you made before the due date</b> (and ignore everything else) &mdash; submitting multiple times is okay and encouraged!
+    </p>
+
+    <p>
+      Inside of Jupyter:
+    </p>
+    <ul>
+      <li>Click <b>File -&gt; Save Checkpoint</b> to ensure your notebook is saved. </li>
+      <li>Click <b>File -&gt; Close and Halt</b> to exit your notebook. </li>
+      <li>Click <b>Quit</b> (in the top-right) to close the directory view.</li>
+    </ul>
+
+    <p>
+      After exiting Jupyter, your command prompt will return to accept new commands.  Using your command prompt, run:
+    </p>
+
+<pre><code>git add -A
+git commit -m "submission (or any message here)"
+git push origin master</code></pre>
+
+    <p>
+      You can verify your submission was made by visiting the web interface to github:
+    </p>
+
+    <ul>
+      <li>Visit <a href="https://github-dev.cs.illinois.edu/stat107-sp20/" target="_blank">https://github-dev.cs.illinois.edu/stat107-sp20/</a></li>
+      <li>Click on your NetID.</li>
+      <li>Ensure your last commit was a few seconds or 1-2 minutes ago.</li>
+    </ul>      
+  </div>
+</div>
+  

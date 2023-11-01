@@ -1,0 +1,24 @@
+name: Jekyll Build and Deploy
+
+on:
+  workflow_dispatch: {}
+
+  push:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: [self-hosted, linux]
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Build the site in the jekyll/builder container
+      run: |
+        docker run \
+        -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
+        jekyll/builder:latest /bin/bash -c "chmod -R 777 /srv/jekyll && jekyll build --future"
+
+    - name: Deploy via rsync
+      run: |
+        sshpass -p ${{ secrets.DEPLOY_PASSWORD }} rsync -avzh --no-p --inplace _site/ ${{ secrets.DEPLOY_USER }}@ssh.courses.grainger.illinois.edu:/courses/cs340/sp2023/

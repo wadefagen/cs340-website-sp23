@@ -1,0 +1,328 @@
+lectures:
+
+# Week 1
+- date: 2022-08-23
+  title: "Course Introduction and Binary Representation"
+  number: 1
+  visible: true
+  links:
+  - Lecture Handout: /static/lectures/cs340fa22 - 01 - Course Introduction, Binary, and Hex.pdf
+  - Lecture Code: https://github.com/cs340-illinois/lecture/tree/main/01
+  - ▶️ Lecture Recording: https://mediaspace.illinois.edu/media/t/1_aaax87bj
+  assignments:
+  - Homework 1 (Due Monday, Aug. 29 by 11:59pm): "/homeworks/hw1/"
+  - MP0 (Due Tuesday, Aug. 30 by 11:59pm): "/mp/mp0/"
+
+
+- date: 2022-08-25
+  title: "Character Encodings (ASCII, UTF-8) and Binary Math"
+  number: 2
+  visible: true
+  links:
+  - Lecture Handout: /static/lectures/cs340fa22 - 02 - Character Encodings and Binary Math.pdf
+  - Lecture Code: https://github.com/cs340-illinois/lecture/tree/main/02
+  - ▶️ Lecture Recording: https://mediaspace.illinois.edu/media/t/1_bvix1wuv
+  assignments:
+  - Homework 2 (Due Monday, Aug. 29 by 11:59pm): "/homeworks/hw2/"
+
+# Week 2
+- date: 2022-08-30
+  title: "C Programming, Two's Complement and Logic Gates"
+  number: 3
+  visible: true
+  links:
+  - Lecture Handout: /static/lectures/cs340fa22 - 03 - C Programming and Logic Gates.pdf
+  - Lecture Code: https://github.com/cs340-illinois/lecture/tree/main/03
+  - ▶️ Lecture Recording: https://mediaspace.illinois.edu/media/t/1_b6xpevat
+  readings:
+  - The C Programming Language - An Introduction: https://systems-encyclopedia.cs.illinois.edu/articles/intro-c/
+  - Strings in C: https://systems-encyclopedia.cs.illinois.edu/articles/c-strings/
+  - Basic Memory Management in C: https://systems-encyclopedia.cs.illinois.edu/articles/c-memory-management/
+  - Bitwise Operations: https://systems-encyclopedia.cs.illinois.edu/articles/bitwise-operations/
+  assignments:
+  - Homework 3 (Due Tuesday, Sept. 6 by 11:59pm): "/homeworks/hw3/"
+  - MP1 (Due Tuesday, Sept. 6 by 11:59pm): "/mp/mp1/"
+
+
+- date: 2022-09-01
+  title: "Logic Gates, ISAs and Instruction Sets, File Types, & Memory"
+  number: 4
+  visible: true
+  links:
+  - Lecture Handout: /static/lectures/cs340fa22 - 04 - Logic Gates, ISAs, and Instruction Sets.pdf
+  - Lecture Code: https://github.com/cs340-illinois/lecture/tree/main/04
+  - ▶️ Lecture Recording: https://mediaspace.illinois.edu/media/t/1_une15kta
+  assignments:
+  - Homework 4 (Due Tuesday, Sept. 6 by 11:59pm): "/homeworks/hw4/"
+
+# Week 3
+- date: 2022-09-06
+  title: "Locality of Reference and Virtual Memory"
+  number: 5
+  visible: true
+  links:
+  - Lecture Handout: /static/lectures/cs340fa22 - 05 - Endianness, Memory Hierarchy, and Virtual Memory.pdf
+  - Lecture Code: https://github.com/cs340-illinois/lecture/tree/main/05
+  - ▶️ Lecture Recording: https://mediaspace.illinois.edu/media/t/1_493rdnb3
+  assignments:
+  - Homework 5 (Due Monday, Sept. 12 by 11:59pm): "/homeworks/hw5/"
+  - MP2 (Due Tuesday, Sept. 13 by 11:59pm): "/mp/mp2/"
+
+- date: 2022-09-08
+  title: "Heap Memory Allocation and malloc"
+  number: 6
+  visible: true
+  links:
+  - Lecture Handout: /static/lectures/cs340fa22 - 06 - Heap Memory Allocation and malloc.pdf
+  - Lecture Code: https://github.com/cs340-illinois/lecture/tree/main/06
+  - ▶️ Lecture Recording (No Sound): https://mediaspace.illinois.edu/media/t/1_60q900kb
+  assignments:
+  - Homework 6 (Due Monday, Sept. 12 by 11:59pm): "/homeworks/hw6/"
+
+# Week 4
+- date: 2022-09-13
+  title: "Page Eviction, Threads, and pthreads"
+  number: 7
+  visible: true
+  links:
+  - Lecture Handout: /static/lectures/cs340fa22 - 07 - Fragmentation, Threads, and pthreads.pdf
+  - Lecture Code: https://github.com/cs340-illinois/lecture/tree/main/07
+  assignments:
+  - Homework 7 (Due Monday, Sept. 19 by 11:59pm): /homeworks/hw7/
+  - MP3 (Due Tuesday, Sept. 27 by 11:59pm): /mp/mp3/
+
+
+- date: 2022-09-15
+  title: "Limited Direct Execution and Threads"
+  number: 8
+  visible: true
+  links:
+  - Lecture Handout: /static/lectures/cs340fa22 - 08 - Limited Direct Execution and Threads.pdf
+  - Lecture Code: https://github.com/cs340-illinois/lecture/tree/main/08
+  - ▶️ Lecture Recording: https://mediaspace.illinois.edu/media/t/1_i5pan4oe
+  assignments:
+  - Homework 8 (Due Monday, Sept. 19 by 11:59pm): /homeworks/hw8/
+
+
+# Week 5
+- date: 2022-09-20
+  title: "Synchronization and Dining Philosophers"
+  number: 9
+  visible: true
+  links:
+  - Lecture Handout: /static/lectures/cs340fa22 - 09 - Synchronization and Dining Philosophers.pdf
+  - Lecture Code: https://github.com/cs340-illinois/lecture/tree/main/09
+  - ▶️ Lecture Recording: https://mediaspace.illinois.edu/media/t/1_5he0o0ww
+
+
+- date: 2022-09-22
+  title: "Synchronization and Dining Philosophers"
+  number: 10
+  visible: true
+  links:
+  - "Lecture Handout (Finish up Lecture Handout #9)": /static/lectures/cs340fa22 - 09 - Synchronization and Dining Philosophers.pdf
+  - Lecture Code: https://github.com/cs340-illinois/lecture/tree/main/09
+  - ▶️ Lecture Recording: https://mediaspace.illinois.edu/media/t/1_4rqmo24h
+  assignments:
+  - MP4 (Due Tuesday, Oct. 4 by 11:59pm): /mp/mp4/
+
+# Week 6
+- date: 2022-09-27
+  title: "Deadlock Solutions and Producer-Consumer"
+  number: 11
+  visible: true
+  links:
+  - Lecture Handout: /static/lectures/cs340fa22 - 10_11 - Deadlock and Producer-Consumer.pdf
+  - Lecture Code: https://github.com/cs340-illinois/lecture/tree/main/10
+  - ▶️ Lecture Recording: https://mediaspace.illinois.edu/media/t/1_caf3qec8
+  assignments:
+  - MP4 (Due Tuesday, Oct. 4 by 11:59pm): /mp/mp4/
+  - Homework 10 (Due Monday, Oct. 8 by 11:59pm): /homeworks/hw10/
+
+
+- date: 2022-09-29
+  title: "Networking: OSI Model and HTTP"
+  number: 12
+  visible: true
+  links:
+  - Lecture Handout: /static/lectures/cs340fa22 - 12 - IPC and Networking.pdf
+  - Lecture Code: https://github.com/cs340-illinois/lecture/tree/main/12
+  - ▶️ Lecture Recording: https://mediaspace.illinois.edu/media/t/1_h26obrva
+
+
+
+
+# Week 7
+- date: 2022-10-04
+  note: "You will sign up to take your Midterm 1 exam in the CBTF this week."
+  title: "Inter-process Communications (IPC) and Networking"
+  number: 13
+  visible: true
+  links:
+  - Lecture Handout: /static/lectures/cs340fa22 - 13 - Networking_ OSI Model and HTTP.pdf
+  - ▶️ Lecture Recording: https://mediaspace.illinois.edu/media/t/1_dp23gemf
+  assignments:
+  - MP5 (Due Tuesday, Oct. 11 by 11:59pm): /mp/mp5/
+
+
+
+- date: 2022-10-06
+  title: "Mideterm Exam I"
+  holiday: true
+
+# Week 8
+- date: 2022-10-11
+  title: "Web Services, Python, and flask"
+  visible: true
+  number: 14
+  links:
+  - Lecture Handout: /static/lectures/cs340fa22 - 14 - Web Services, Python, and flask.pdf
+  - Lecture Code: https://github.com/cs340-illinois/lecture/tree/main/14
+  - ▶️ Lecture Recording: https://mediaspace.illinois.edu/media/t/1_c9cafv7o
+  assignments:
+  - MP6 (Due Tuesday, Oct. 18 by 11:59pm): /mp/mp6/
+
+- date: 2022-10-13
+  title: "API Programming and Virtualizations"
+  number: 15
+  visible: true
+  links:
+  - Lecture Handout: /static/lectures/cs340fa22 - 15_ API Programming and Virtualizations.pdf
+  - Lecture Code: https://github.com/cs340-illinois/lecture/tree/main/15
+  - ▶️ Lecture Recording: https://mediaspace.illinois.edu/media/t/1_4uglqzkm
+  assignments:
+  - "Extra Credit: Post-Midterm #1 Feedback": https://forms.gle/cQHcwsU7ZH2vYcyb8
+  - Homework 11 (Due Monday, Oct. 22 by 11:59pm): /homeworks/hw11/
+
+# Week 9
+- date: 2022-10-18
+  title: "IaaS and Public/Private Clouds"
+  number: 16
+  visible: true
+  links:
+  - Lecture Handout: /static/lectures/cs340fa22 - 16_ IaaS and Public_Private Clouds.pdf
+  - ▶️ Lecture Recording: https://mediaspace.illinois.edu/media/t/1_583i298w
+  assignments:
+  - MP7 (Due Tuesday, Oct. 25 by 11:59pm): /mp/mp7/
+  - Homework 12 (Due Monday, Oct. 29 by 11:59pm): "#"
+
+- date: 2022-10-20
+  title: "Containers, CaaS and Docker"
+  number: 17
+  visible: true
+  links:
+  - Lecture Handout: /static/lectures/cs340fa22 - 17_ Containers, CaaS and Docker.pdf
+  - Lecture Code: https://github.com/cs340-illinois/lecture/tree/main/17
+  - ▶️ Lecture Recording: https://mediaspace.illinois.edu/media/t/1_qg55n1ie
+
+# Week 10
+- date: 2022-10-25
+  title: "Data Storage - File Systems to Cloud Object Storage"
+  number: 18
+  visible: true
+  links:
+  - Lecture Handout: /static/lectures/cs340fa22 - 18 - Data Storage - File Systems to Cloud.pdf
+  - Lecture Code: https://github.com/cs340-illinois/lecture/tree/main/18
+  - ▶️ Lecture Recording: https://mediaspace.illinois.edu/media/t/1_8w40y22g
+  assignments:
+  - MP8 (Due Tuesday, Nov. 1 by 11:59pm): "#" # /mp/mp7/
+
+  
+
+- date: 2022-10-27
+  title: "Data Stores and Cloud Architectures"
+  number: 19
+  visible: true
+  links:
+  - Lecture Handout: /static/lectures/cs340fa22 - 19_ Data Stores and Cloud Architectures.pdf
+  - Lecture Code: https://github.com/cs340-illinois/lecture/tree/main/19
+  - ▶️ Lecture Recording: https://mediaspace.illinois.edu/media/t/1_yi554cex
+  assignments:
+  - Homework 13 (Due Monday, Oct. 31 by 11:59pm): "#"
+
+
+# Week 11
+- date: 2022-11-01
+  title: "MapReduce and SaaS Introduction"
+  number: 20
+  visible: true
+  links:
+  - Lecture Handout: /static/lectures/cs340fa22 - 20_ SaaS and Software Architecture.pdf
+  assignments:
+  - MP9 (Due Wednesday, Nov. 9 by 11:59pm): /mp/mp9/
+
+- date: 2022-11-03
+  title: "Caching in HTTP (Age and ETag)"
+  number: 21
+  visible: true
+  links:
+  - Lecture Handout: /static/lectures/cs340fa22 - 21_ Caching in HTTP (Age and ETag).pdf
+  - Lecture Code: https://github.com/cs340-illinois/lecture/tree/main/21
+  assignments:
+  - Homework 14 (Due Monday, Oct. 7 by 11:59pm): "#"
+
+
+
+
+# Week 12
+- date: 2022-11-08
+  title: "Election Day"
+  holiday: true
+
+- date: 2022-11-10
+  title: "MP9 Course-Wide Maze"
+  #title: "Domain Name System (DNS) and Content Delivery Networks (CDNs)"
+  number: 22
+
+# Week 13
+- date: 2022-11-15
+  title: "Tokens and SAML2 Authentication (SSO Login)"
+  number: 23
+  visible: true
+  links:
+  - Lecture Handout: /static/lectures/cs340fa22 - 23_ Tokens and SAML2 Authentication.pdf
+
+- date: 2022-11-17
+  title: "Domain Name System (DNS)"
+  #Threading in Python (async/await)"
+  number: 24
+  visible: true
+  links:
+  - Lecture Handout: /static/lectures/cs340fa22 - 24_ Domain Name System (DNS).pdf
+
+- date: 2022-11-22
+  title: "Fall Break"
+  holiday: true
+
+- date: 2022-11-24
+  title: "Fall Break"
+  holiday: true
+
+
+# Week 14
+- date: 2022-11-29
+  note: "You will sign up to take your Midterm 2 exam in the CBTF this week."
+  title: "Finish Up DNS, Final Project Updates, MP9 Maze (v2)"
+  number: 25
+  visible: true
+  links:
+  - "Lecture Handout (Finish Up #24)": /static/lectures/cs340fa22 - 24_ Domain Name System (DNS).pdf
+
+- date: 2022-12-01
+  title: "Midterm Exam II"
+  holiday: true
+
+# Week 15
+- date: 2022-12-06
+  title: "CDN: Content Delivery Networks"
+  number: 26
+  visible: true
+  links:
+  - "Lecture Handout": /static/lectures/cs340fa22 - 25_ Content Delivery Networks (CDNs).pdf
+
+
+# Week 16
+- date: 2022-12-13
+  note: "The finale of the final project will take place during the final exam period for CS 340, which is 7:00pm-10:00pm on Tuesday Dec. 13 (Taylor's Birthday!)"
+  title: "Final Project Presentations (7:00pm)"
+  number: 30

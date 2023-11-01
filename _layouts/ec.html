@@ -1,0 +1,81 @@
+---
+layout: default
+---
+
+<div class="card box-shadow p-2">
+  <div class="card-body">
+    <h3 class="card-title">Lecture {{page.number}} - Extra Credit Notebook</h3>
+    <div><b>Source Branch</b>: <code>{{ page.repo }}</code><br></div>
+    <div><b>Due Date</b>: Committed and pushed to git <b>before</b> {{ page.due | date: '%B %e, %Y at %l:%M%P' }}<br></div>
+    <div><b>Points</b>: +1 extra credit point for a completed notebook; no partial extra credit</div>
+
+  </div>
+</div>
+
+<hr>
+
+<div class="card box-shadow p-2">
+  <div class="card-body">
+    <h3 class="card-title">Getting Started</h3>
+
+<p>Using your command line, navigate to your <code class="highlighter-rouge">stat107</code> repository (<code class="highlighter-rouge">cd Desktop</code> -&gt; <code class="highlighter-rouge">cd stat107</code> -&gt; <code class="highlighter-rouge">cd [NETID]</code>) and fetch the notebook from our release repository by running the following two <code class="highlighter-rouge">git</code> commands:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git fetch release
+git merge release/{{ page.repo }} -m "Merging initial files"
+</code></pre></div></div>
+
+<p><strong>ONLY IF you get an error</strong> related to unrelated histories, use:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git merge release/{{ page.repo }} --allow-unrelated-histories -m "Merging initial files" 
+</code></pre></div></div>
+
+<p>Open the notebook with the command:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>jupyter notebook
+</code></pre></div></div>
+    
+<p>Find your notebook in the <code class="highlighter-rouge">{{ page.repo }}</code> folder.</p>
+
+  </div>
+</div>
+
+<hr>
+
+<div class="card box-shadow p-2">
+  <div class="card-body">
+    <h3 class="card-title">Submitting Your Work</h3>
+
+    <p>
+      When you have completed working, you should always submit your work (<i>even if you're not quite finished</i>).
+      We will always grade the <b>latest push you made before the due date</b> (and ignore everything else) &mdash; submitting multiple times is okay and encouraged!
+    </p>
+
+    <p>
+      Inside of Jupyter:
+    </p>
+    <ul>
+      <li>Click <b>File -&gt; Save Checkpoint</b> to ensure your notebook is saved. </li>
+      <li>Click <b>File -&gt; Close and Halt</b> to exit your notebook. </li>
+      <li>Click <b>Quit</b> (in the top-right) to close the directory view.</li>
+    </ul>
+
+    <p>
+      After exiting Jupyter, your command prompt will return to accept new commands.  Using your command prompt, run:
+    </p>
+
+<pre><code>git add -A
+git commit -m "submission (or any message here)"
+git push origin master</code></pre>
+
+    <p>
+      You can verify your submission was made by visiting the web interface to github:
+    </p>
+
+    <ul>
+      <li>Visit <a href="https://github-dev.cs.illinois.edu/stat107-sp20/" target="_blank">https://github-dev.cs.illinois.edu/stat107-sp20/</a></li>
+      <li>Click on your NetID.</li>
+      <li>Ensure your last commit was a few seconds or 1-2 minutes ago.</li>
+    </ul>      
+  </div>
+</div>
+  

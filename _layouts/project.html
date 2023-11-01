@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+<div class="card box-shadow p-2">
+  <div class="card-body">
+    <h3 class="card-title">{{ page.title }}</h3>
+    {% if page.ec %}
+      <div><b>Extra Credit</b>: Completed and turned in via git before {{ page.ec | date: '%B %e, %Y at %l:%M%P' }}<br></div>
+    {% endif %}    
+    <div><b>Due Date</b>: Completed and turned in via git before {{ page.due | date: '%B %e, %Y at %l:%M%P' }}<br></div>
+    <div><b>Points</b>: {{ page.number }} is worth {{ page.points }} points</div>
+  </div>
+</div>
+
+<hr>
+
+<div class="card box-shadow p-2">
+  <div class="card-body reduce-h-tags">
+    {{content}}
+  </div>
+</div>

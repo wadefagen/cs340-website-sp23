@@ -1,0 +1,335 @@
+lectures:
+
+# Week 1
+- date: 2021-08-24
+  title: Course Introduction and Binary Representation
+  visible: true
+  number: 1
+  links:
+  - "Lecure Handout": /static/lectures/cs240fa21_01-handout.pdf
+  - "Lecure Slides": /static/lectures/cs240fa21_01-slides.pdf
+  assignments:
+  - Homework 0 (Due Thursday, Aug. 26 by 9:00am): /homeworks/hw0/
+
+- date: 2021-08-26
+  title: Hexadecimal, Character Encodings, and C Programming
+  visible: true
+  number: 2
+  links:
+  - "github.com @cs240-illinois invite": https://forms.gle/rkZsJTtn1WFQHU1a7
+  - "Lecure Handout": /static/lectures/cs240fa21_02-handout.pdf
+  - "Lecure Slides": /static/lectures/cs240fa21_02-slides.pdf
+  assignments:
+  - Homework 1 (Due Friday, Sept. 3 by 11:59pm): /homeworks/hw1/
+  - MP1 (Due Friday, Sept. 3 by 11:59pm): /mps/mp1/
+
+# Week 2
+- date: 2021-08-31
+  title: Binary Math, Two’s Complement and Logic Gates
+  visible: true
+  number: 3
+  links:
+  - "Lecure Handout": /static/lectures/cs240fa21_03-handout.pdf
+  - "Lecure Slides": /static/lectures/cs240fa21_03-slides.pdf
+  - Lecture Recording (YouTube): https://youtu.be/Qlsm12DNzU8
+  - Lecture Recording (MediaSpace): https://mediaspace.illinois.edu/media/t/1_tv94smos
+
+- date: 2021-09-02
+  title: ISAs and Instruction Sets, File Types, & Memory
+  visible: true
+  number: 4
+  links:
+  - "Lecure Handout": /static/lectures/cs240fa21_04-handout.pdf
+  - "Lecure Slides": /static/lectures/cs240fa21_04-slides.pdf    
+  - Lecture Recording (YouTube): https://youtu.be/rHIEgu1Biwk
+  - Lecture Recording (MediaSpace): https://mediaspace.illinois.edu/media/t/1_gqiviqyf
+  assignments:
+  - MP2 (Due Friday, Sept. 10 by 11:59pm): /mps/mp2/
+  - Homework 2 (Due Friday, Sept. 10 by 11:59pm): /homeworks/hw2/
+
+
+# Week 3
+- date: 2021-09-07
+  title: Locality of Reference and Virtual Memory
+  visible: true
+  number: 5
+  links:
+  - "Lecure Handout": /static/lectures/cs240fa21_05-handout.pdf
+  - "Lecure Slides": /static/lectures/cs240fa21_05-slides.pdf
+  - Lecture Recording (YouTube): https://www.youtube.com/watch?v=CSCGbf-6t8U
+
+- date: 2021-09-09
+  title: Page Eviction, Replacement, Heap Management
+  visible: true
+  number: 6
+  links:
+  - "Lecure Handout": /static/lectures/cs240fa21_06-handout.pdf
+  - "Lecure Slides": /static/lectures/cs240fa21_06-slides.pdf
+  - Lecture Code: https://github.com/cs240-illinois/cs240-fa21_lecture/tree/main/06
+  - Lecture Recording (MediaSpace): https://mediaspace.illinois.edu/media/t/1_qhxzgcir
+  assignments:
+  - MP3 (Due Friday, Sept. 24 by 11:59pm): /mps/mp3/
+  - Homework 3 (Due Friday, Sept. 17 by 11:59pm): /homeworks/hw3/
+
+
+# Week 4
+- date: 2021-09-14
+  title: Memory Finale and Reflection on Part 1
+  visible: true
+  number: 6b
+  links:
+  - "Lecure Handout (same/cont. from 06)": /static/lectures/cs240fa21_06-handout.pdf
+  - "Lecure Slides (same/cont. from 06)": /static/lectures/cs240fa21_06-slides.pdf
+  - Lecture Code: https://github.com/cs240-illinois/cs240-fa21_lecture/tree/main/06
+  - Lecture Recording (YouTube): https://youtu.be/x-rZjrYQ2U0
+
+- date: 2021-09-16
+  title: Fragmentation, Threads, and pthreads
+  visible: true
+  number: 7
+  links:
+  - "Lecure Handout": /static/lectures/cs240fa21_07-handout.pdf
+  - "Lecure Slides": /static/lectures/cs240fa21_07-slides.pdf
+  - Lecture Code: https://github.com/cs240-illinois/cs240-fa21_lecture/tree/main/07
+  - Lecture Recording (YouTube): https://youtu.be/bhIgvpaaHEs
+  assignments:
+  - Homework 4 (Due Friday, Sept. 24 by 11:59pm): /homeworks/hw4/
+
+
+# Week 5
+- date: 2021-09-21
+  title: "[Limited] Direct Execution and Threads II"
+  visible: true
+  number: 8
+  links:
+  - "Lecure Handout": /static/lectures/cs240fa21_08-handout.pdf
+  - "Lecure Slides": /static/lectures/cs240fa21_08-slides.pdf
+  - Lecture Code: https://github.com/cs240-illinois/cs240-fa21_lecture/tree/main/08
+  - Lecture Recording (YouTube): https://youtu.be/krdc7QZOOWc
+
+- date: 2021-09-23
+  title: Synchronization, Dining Philosophers, and Deadlock
+  visible: true
+  number: 9
+  links:
+  - "Lecure Handout": /static/lectures/cs240fa21_09-handout.pdf
+  - "Lecure Slides": /static/lectures/cs240fa21_09-slides.pdf
+  - Lecture Recording (YouTube): https://youtu.be/KCwNdtbiJPo
+  assignments:
+  - MP4 (Due Friday, Oct. 1 by 11:59pm): /mp/mp4/
+  - Homework 5 (Due Friday, Oct. 1 by 11:59pm): /homeworks/hw5/
+
+
+# Week 6
+- date: 2021-09-28
+  title: Inter-process Communications (IPC) and Networking
+  visible: true
+  number: 10
+  links:
+  - "Lecure Handout": /static/lectures/cs240fa21_10-handout.pdf
+  - "Lecure Slides": /static/lectures/cs240fa21_10-slides.pdf
+  - Lecture Code: https://github.com/cs240-illinois/cs240-fa21_lecture/tree/main/10
+  - Lecture Recording (YouTube): https://youtu.be/ddlebSwtGwI
+
+
+- date: 2021-09-30
+  title: "Networking and HTTP"
+  visible: true
+  number: 11
+  links:
+  - "Lecure Handout": /static/lectures/cs240fa21_11-handout.pdf
+  - "Lecure Slides": /static/lectures/cs240fa21_11-slides.pdf
+  - Lecture Recording (YouTube): https://youtu.be/Eo1Hpji8-hI
+  assignments:
+  - MP5 (Due Friday, Oct. 8 by 11:59pm): "/mp/mp5/"
+  - Homework 6 (Due Friday, Oct. 8 by 11:59pm): "/homeworks/hw6/"
+
+# Week 7
+- date: 2021-10-05
+  note: "You will sign up to take your Midterm 1 exam in the CBTF anytime from Oct. 5 - Oct. 9"
+  title: "Web Services, Python, and flask"
+  visible: true
+  number: 12
+  links:
+  - "Lecure Handout": /static/lectures/cs240fa21_12-handout.pdf
+  - "Lecure Slides": /static/lectures/cs240fa21_12-slides.pdf
+  - Lecture Video: https://youtu.be/QbmV2XLCx1Q
+
+
+- date: 2021-10-07
+  title: Midterm Exam 1
+  holiday: true
+  assignments:
+  - MP6 (Due Friday, Oct. 15 by 11:59pm): "/mp/mp6/"
+
+
+# Week 8
+- date: 2021-10-12
+  title: Virtualization and Abstractions
+  visible: true
+  number: 13
+  links:
+  - "Lecure Handout": /static/lectures/cs240fa21_13-handout.pdf
+  - "Lecure Slides": /static/lectures/cs240fa21_13-slides.pdf
+  - Lecture Code: https://github.com/cs240-illinois/cs240-fa21_lecture/tree/main/13
+  - Lecture Video: https://youtu.be/YZsd7xJVeu4
+
+
+
+- date: 2021-10-14
+  title: Web Servers
+  visible: true
+  number: 14
+  links:
+  - "Lecure Handout": /static/lectures/cs240fa21_14-handout.pdf
+  - "Lecure Slides": /static/lectures/cs240fa21_14-slides.pdf
+  - Lecture Video: https://youtu.be/xqYtnFOSgoA
+  assignments:
+  - MP7 (Due Friday, Oct. 22 by 11:59pm): "/mp/mp7/"
+  - Homework 7 (Due Friday, Oct. 22 by 11:59pm): "/homeworks/hw7/"
+
+
+# Week 9
+- date: 2021-10-19
+  title: Service Architectures
+  visible: true
+  number: 15
+  links:
+  - "Lecure Handout": /static/lectures/cs240fa21_15-handout.pdf
+  - "Lecure Slides": /static/lectures/cs240fa21_15-slides.pdf
+  - Lecture Code: https://github.com/cs240-illinois/cs240-fa21_lecture/tree/main/15
+  - Lecture Video: https://youtu.be/-Ex3I4TyItI
+
+- date: 2021-10-21
+  title: Application Layers, APIs, and Clouds
+  visible: true
+  number: 16
+  links:
+  - "Lecure Handout": /static/lectures/cs240fa21_16-handout.pdf
+  - "Lecure Slides": /static/lectures/cs240fa21_16-slides.pdf  
+  - Lecture Code: https://github.com/cs240-illinois/cs240-fa21_lecture/tree/main/15
+  - Lecture Video: https://youtu.be/lYJaeh8JZKg
+  assignments:
+  - Homework 8 (Due Tuesday, Oct. 26 by 12:00noon): "/homeworks/hw8/"
+  - MP8 (Due Friday, Oct. 29 by 11:59pm): /mp/mp8/
+
+
+# Week 10
+- date: 2021-10-26
+  title: API Best Practices and MapReduce
+  visible: true
+  number: 17
+  links:
+  - Lecure Handout: /static/lectures/cs240fa21_17-handout.pdf
+  - Lecure Slides: /static/lectures/cs240fa21_17-slides.pdf  
+  assignments:
+  - Homework 9 (Due Tuesday, Oct. 28 by 12:00noon): "/homeworks/hw9/"
+
+- date: 2021-10-28
+  title: "MapReduce II and Object Storage"
+  visible: true
+  number: 18
+  links:
+  - Lecure Handout: /static/lectures/cs240fa21_18-handout.pdf
+  - Lecure Slides: /static/lectures/cs240fa21_18-slides.pdf    
+  assignments:
+  - MP9 (Due Friday, Nov. 5 by 11:59pm): /mp/mp9/
+
+
+# Week 11
+- date: 2021-11-02
+  title: File Systems and Object Storage
+  visible: true
+  number: 19
+  links:
+  - Lecure Handout: /static/lectures/cs240fa21_19-handout.pdf
+  - Lecure Slides: /static/lectures/cs240fa21_19-slides.pdf
+  - Lecture Video: https://mediaspace.illinois.edu/media/t/1_593vv3jp
+
+- date: 2021-11-04
+  title: Caching
+  visible: true
+  number: 20
+  links:
+  - Lecure Handout: /static/lectures/cs240fa21_20-handout.pdf
+  - Lecure Slides: /static/lectures/cs240fa21_20-slides.pdf  
+  - Lecture Video: https://mediaspace.illinois.edu/media/t/1_ehr0rqsq
+  assignments:
+  - Final Project (Week 1, Due Sunday, Nov. 14 by 11:59pm): /project/part1/
+
+
+# Week 12
+- date: 2021-11-09
+  title: Domain Name System (DNS)
+  visible: true
+  number: 21
+  links:
+  - Lecure Handout: /static/lectures/cs240fa21_21-handout.pdf
+  - Lecure Slides: /static/lectures/cs240fa21_21-slides.pdf
+  - Lecture Video: https://mediaspace.illinois.edu/media/t/1_ay502c1j
+
+
+- date: 2021-11-11
+  title: Content Delivery Networks (CDNs)
+  visible: true
+  number: 22
+  links:
+  - Lecure Handout: /static/lectures/cs240fa21_22-handout.pdf
+  - Lecure Slides: /static/lectures/cs240fa21_22-slides.pdf    
+  - Lecture Video: https://mediaspace.illinois.edu/media/t/1_zbmvlkwf
+  assignments:
+  - Final Project  (Week 2, Due Friday, Nov. 28 by 11:59pm): /project/part2/
+
+
+# Week 13
+- date: 2021-11-16
+  title: Security and Authentication
+  visible: true
+  number: 23
+  links:
+  - Lecure Handout: /static/lectures/cs240fa21_23-handout.pdf
+  - Lecure Slides: /static/lectures/cs240fa21_23-slides.pdf      
+
+- date: 2021-11-18
+  title: Authentication with SAML2 (SSO Login)
+  visible: true
+  number: 24
+  links:
+  - Lecure Handout: /static/lectures/cs240fa21_24-handout.pdf
+  - Lecure Slides: /static/lectures/cs240fa21_24-slides.pdf      
+  assignments:
+  - Homework 10 (Exam Review):  "/homeworks/hw10/"
+
+
+
+
+# Week 14
+- date: 2021-11-23
+  title: Fall Break
+  holiday: true
+
+- date: 2021-11-25
+  title: Fall Break
+  holiday: true
+
+
+# Week 15
+- date: 2021-11-30
+  note: "You will sign up to take your Midterm 2 exam in the CBTF anytime from Nov. 30 - Dec. 5"
+  title: "Towards Frontends and Finale!"
+  visible: true
+  number: 25
+  links:
+  - Lecure Handout: /static/lectures/cs240fa21_25-handout.pdf
+  - Lecure Slides: /static/lectures/cs240fa21_25-slides.pdf  
+  assignments:
+  - Final Project (Part 3): "/project/part3/"
+
+- date: 2021-12-02
+  title: Midterm Exam II
+  holiday: true
+
+
+# Week 16
+- date: 2021-12-07
+  title: Final Project
